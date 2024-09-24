@@ -1,0 +1,356 @@
+/*full window resizing */
+@media (min-width: 789px) {
+ 
+}
+
+/* YourComponent.css */
+
+/* Add styles for smaller screens */
+@media (max-width: 788px) {
+  .owner-info{
+    margin-left: 20px !important;
+  }
+  .owner-name {
+    margin-left: -200px !important;
+    font-size: 15px !important; /* Adjust the font size for small screens */
+  }
+  .bio {
+    margin-left: -200px !important;
+    font-size: 12px !important; /* Adjust the font size for small screens */
+  }
+
+  .profile-picture {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .button-container {
+    margin-top: -70px !important;
+    padding: 2px;
+  }
+  .find-dog-button {
+    width: 100px !important;
+    font-size: 15px;
+    padding: 3px;
+    margin-top: 1px !important;
+    margin-right: 2px;
+    border: none;
+  }
+  .logout-button {
+    width: 80px !important;
+    font-size: 15px;
+    padding: 3px;
+    border: none;
+  }
+  .vertical-buttons {
+    flex-direction: row; /* Change to horizontal arrangement for smaller screens */
+  }
+
+  .vertical-buttons button {
+    margin-bottom: 10px; /* Add some space between horizontally arranged buttons */
+  }
+    
+  .owner-button{
+    margin-left: 100px;
+    align-items: center;
+  }
+  .owner-button,
+  .pet-button,
+  .add-pet-button,
+  .payment, .rules{
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center !important;
+  }
+  
+  .owner-info{
+    margin-left: 10px;
+  }
+  .bg-f{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: skyblue;
+    height: 350px;
+    width: 90px;
+  }
+  
+  .bg-s{
+    margin-top: 20px;
+    background-color: white;
+    height: 350px;
+    margin-right: 1px !important;
+    width: 310px;
+  }
+  .profile-pic{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+  .owner-named{
+    margin-top: 20px;
+  }
+  .owner-named, .fur-parent{
+    margin-left: 80px;
+  }
+  .owner-age, .owner-sex{
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 60px;
+    width: 100px;
+    font-size: 14px !important;
+  }
+  .owner-add, .owner-contact{
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 14px !important;
+  }
+  .a{
+    font-size: 10px !important;
+  }
+  .save, .edit{
+    margin-left: 70px;
+  }
+  .save, .edit, .cancel{
+    width: 80px;
+    padding: 3px;
+  }
+  .cent-text{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .acc-inp{
+    
+    width: 200px !important;
+    height: 30px;
+    position: relative;
+    margin-left: 10px !important;
+  }
+  
+  .acc-icon{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 25px !important ;
+  }
+  .pet-list{
+    font-size: 20px;
+    border: none;
+  }
+  .for-pet{
+    width: 450px;
+    height: 100px;
+    display: flex;
+  }
+  .pet-image{
+    margin-left: 10px;
+    width: 60px !important;
+    height: 60px !important;
+  }
+  .pet-info{
+    width: 10px;
+    font-size: 10px;
+  }
+  .dog-name{
+    font-size: 15px !important;
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+  .dog-breed{
+    font-size: 15px !important;
+    margin-left: 200px;
+    margin-top: 0px;
+    position: absolute;
+  }
+  .dog-status{
+    font-size: 15px !important;
+    margin-left: 300px;
+    margin-top: -28px;
+    position: absolute;
+  }
+  .petDet {
+    width: 400px;
+    height: 10px ;
+  }
+  .pet-profile{
+    margin-left: -100px;
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .for-text{
+    margin-top: -90px;
+  }
+  .details{
+    height: 250px;
+  }
+  .for-pups2, .for-pups{
+    margin-left: 120px !important;
+  }
+.d-age,
+.d-address,
+.d-color,
+.d-sex,
+.d-rabbies-vacc,
+.d-rabbies-vacc-year,
+.d-status{
+  border-top: 5px solid black;
+}
+  .the-dog-con{
+    margin-left: -50px !important;
+    height: 420px;
+    width: 400px;
+  }
+  .the-dog-con .dog{
+    width: 250px !important;
+    height: 25px !important;
+    font-size: 15px;
+    flex-direction: column;
+    margin-top: -5px;
+  }
+  .lleft .pws2{
+    position: absolute !important;
+    margin-top: -5px;
+    float: left !important;
+  }
+  .pws1, .pws{
+    position: absolute !important;
+    margin-top: 25px;
+    margin-left: -320px;
+  }
+  .pwss{
+    margin-left: 15px !important;
+    margin-right: 5px !important;
+    margin-top: -5px !important;
+    position: absolute;
+  }
+  .pws3{
+    margin-left: -320px !important;
+    margin-top: 25px !important;
+    position: absolute;
+  }
+  .dog{
+    margin-left: 60px  !important;
+  }
+  .dogs .dog{
+    margin-left: 75px  !important;
+  }
+  .do-sex{
+    
+    width: 150px;
+    height: 25px;
+    padding: 2px;
+    margin-top: -28px;
+    margin-left: 75px;
+    position: absolute;
+  }
+  .sex{
+    margin-left: 15px;
+  }
+  .sexs  {
+    margin-left: 20px;
+    width: 120px;
+    background: transparent;
+  }
+  .sel-yr{
+    background: transparent;
+    margin-left: 20px !important;
+    border-bottom: 1px solid black;
+    width: 150px;
+    outline: none;
+  }
+  .dog-reg-btn{
+    margin-left: 110px;
+    position: absolute;
+  }
+  .for-payment{
+    width: 400px;
+  }
+  .p-bg{
+    margin-left: -50px !important;
+    height: 400px;
+    width: 250px;
+    font-size: 10px !important;
+  }
+  .prem{
+    margin-left: 10px !important;
+    font-size: 15px !important;
+  }
+  .message{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    width: 160px;
+    margin-left: 20px !important;
+  }
+  .service{
+    display: none;
+  }
+  .col-right{
+    width: 200px;
+    height: 400px;
+  }
+  .for-marg{
+    margin-left: 10px !important;
+  }
+  .d-p{
+    font-size: 13px !important;
+  }
+  .for-feed{
+    margin-left: 20px;
+  }
+  .container-dog{
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+  }
+  .con-tainer{
+    margin-left: -150px;
+    display: flex;
+  }
+  .ff{
+    position: absolute;
+    margin-left: 150px;
+    color: white;
+  }
+  .image-name{
+    margin-left: 150px;
+    margin-top: 50px !important;
+    position: absolute;
+  }
+  .find-dog-image{
+    height: 100px;
+    padding: 3px;
+  }
+  .title-info{
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 14px !important;
+  }
+  .for-img{
+    display: none;
+  }
+  .find-owner-name{
+    font-size: 16px !important;
+  }
+
+  .INFORMATION{
+    margin-top: -15px;
+    margin-left: 70px;
+  }
+  .find-imgs{
+    margin-left: 15px !important;
+  }
+  .find-D{
+    margin-left: 20px !important;
+  }
+  .dog-image{
+    width: 440px !important;
+    height: 300px !important;
+  }
+  .upload-icon{
+    margin-top: -50px;
+    margin-left: 200px !important;
+  }
+}

@@ -1,0 +1,839 @@
+.pet-owner-account{
+    background-image: url('./images/Bpaws.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .rowbot{
+    margin-bottom: 20px;
+  }
+  .profile-info{
+    text-align: left !important;
+  }
+  .profile-picture{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% !important;
+    padding: 10px;
+  }
+  
+  .button-container{
+    float: right;
+    margin-top: 20px;
+  }
+  .top-infos{
+    text-align: center;
+    margin-left: -100px;
+  }
+  .owner-name{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .bio{
+    color: white;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .find-dog-button{
+    margin-top: -5px !important;
+    margin-right: 20px;
+  }
+  
+  .find-dog-button, 
+  .logout-button{
+    margin-top: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .premuim-picture{
+    width: 25px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+  }
+  
+  .find-dog-button:hover {
+    border: none !important;
+    background-color: rgb(122, 195, 224);
+  }
+  
+  .logout-button:hover{
+    border: none;
+    background-color: rgb(233, 84, 84);
+  }
+  
+  .left-button{
+    margin-top: 10px;
+    margin-left: -100px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .custom-btn-primary{
+    background-color: #7ed7fa !important;
+    border-radius: 10px !important;
+  }
+  .custom-btn-primary:hover{
+    background-color: gainsboro;
+    border-radius: 30px;
+  }
+  .owner-button,
+  .pet-button,
+  .add-pet-button,
+  .payment,
+  .rules{
+    width: 250px;
+    font-size: 15px;
+    border: none;
+    text-align: left;
+    background: transparent;
+    float: left;
+    border-left: none;
+    padding: 5px;
+    left: 10px;
+  }
+  
+  .owner-button,
+  .pet-button,
+  .add-pet-button,
+  .payment{
+    border-bottom: none;
+  }
+  
+  .vertical-buttons {
+    display: flex;
+    flex-direction: column; /* This makes the buttons stack vertically */
+     /* Adds a 3px gap between buttons */
+  }
+  
+  .user{
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  
+  .final-space{
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: 30%;
+    border: none;
+    height: 75vh;
+    border-radius: 50px;
+    margin-bottom: 45px;
+  } 
+  
+  .bond{
+    margin-top: 30px;
+    text-align: justify;
+  }
+  .face{
+    text-align: center;
+    margin-left: -100px;
+    
+  }
+  .owner-info{
+    margin-left: 150px;
+    margin-top: -40px;
+  }
+  .owner-named{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .owner-age, .owner-sex, 
+  .owner-add, 
+  .owner-contact {
+    font-size: 17px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 0px;
+    background-color: #76cbec; 
+    width: 170px;
+    height: 80px;
+    border: 1px solid black;
+  }
+  
+  .a{
+    background-color: white;
+    text-align: left;
+    font-size: 15px !important;
+    padding-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .fur-parent{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .row-acc{
+    margin-right: 50px;
+  }
+  
+  .bg-f{
+    margin-top: 20px;
+    margin-left: -50px;
+    background-color: skyblue;
+    height: 400px;
+  }
+  
+  .bg-s{
+    margin-top: 20px;
+    background-color: white;
+    height: 400px;
+    
+  }
+  .profile-pic{
+    width: 250px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 150px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .button-for{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  .edit, .save,
+  .cancel{
+    background: transparent;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .edit{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .edit:hover, .save:hover,
+  .cancel:hover{
+    border: 1px solid black;
+    background-color: rgb(122, 195, 224);
+  }
+  
+  .save{
+    margin-left: 200px;
+    margin-right: 10px;
+  }
+  
+  .cent-text{
+    margin-left: 150px;
+  }
+  
+  .acc-inp{
+    margin-right: 20px;
+    width: 350px !important;
+    height: 40px;
+  }
+  
+  .acc-icon{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 25px !important ;
+  }
+  
+  .uploaded-image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+  .lleft{
+    margin-left: 15px;
+  }
+  .rright{
+    margin-left: 40px !important;
+  }
+  .add-Pet{
+    margin-left: 100px;
+  }
+  
+  .dog-photo{
+    margin-top: 20px;
+    margin-left: -100px;
+    width: 350px;
+    height: 350px;
+  }
+  .the-dog-con{
+    margin-top: -10px;
+    margin-left: 200px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, white, skyblue);
+  }
+  .the-dog-con .dog{
+    border: 1px solid black;
+    border-radius: 0px !important;
+    padding-left: 10px !important;
+    background: transparent;
+    height: 30px !important;
+    outline: none;
+    resize: none;
+    width: 200px !important;
+    border-radius: 10px !important;
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .reg{
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  
+  .do-sex{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px !important;
+  }
+  
+  .sexs  {
+    margin-left: 20px;
+    width: 160px;
+    background: transparent;
+    border-bottom: none;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    outline: none;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 0.5rem; 
+  }
+  
+  .the-dog-con {
+    margin-bottom: 5px;
+    margin-left: -100px !important;
+  }
+  
+  .pws{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+  label{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  .vaccine{
+    margin-left: 15px;
+  }
+  .for-vac{
+    width: 600px !important;
+  }
+  
+  .va, .un{
+    margin-left: 20px !important;
+  }
+  
+  .sel-yr{
+    background: transparent;
+    margin-left: 20px !important;
+    border: none;
+    width: 200px;
+    border-bottom: 1px solid black;
+  }
+  
+  .upl-img{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding: 5px !important;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center !important;
+    align-items: center !important;
+    width: 150px;
+    height: 33px;
+    border: 1px solid black;
+  }
+  
+  .upl-img:hover {
+  background-color: #76cbec;
+  border: none;
+  border-radius: 10px;
+  }
+  
+  .dog-reg-btn{
+    float: right;
+    background-color: transparent;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  
+  .dog-reg-btn:hover{
+    border: none;
+    background-color: #76cbec;
+  }
+  .forPet{
+    margin-top: 10px;
+  }
+  
+  .pet-list{
+    align-items: center !important;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center !important;
+    font-weight: bold;
+    margin-bottom: 30px !important;
+  }
+  
+  
+  .for-pet {
+    margin-left: 10px;
+    padding: 20px;
+    width: 900px;
+    height: 120px;
+  }
+  
+  .pet-image{
+    margin-left: 50px;
+    width: 80px;
+    height: 75px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  
+  .for-pet:hover{
+    background-color: #7ed7fa;
+    border-radius: 10px;
+  }
+  .for-top-details{
+    text-align: center;
+  }
+  
+  .for-pet-detail{
+    margin-top: 40px;
+    width: 500px;
+    background: linear-gradient(0deg ,skyblue, skyblue);
+    border-top: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .for-text{
+    margin-left: 50px;
+    margin-top: 55px;
+  }
+  .pet-profile{
+    width: 80px;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .pups{
+    margin-left: -50px;
+  }
+  .petname{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .breed{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    font-style: oblique;
+    font-size: 15px;
+  }
+  .details{
+    background: linear-gradient(0deg , white, skyblue);
+    height: 300px;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: -10px !important;
+  }
+  .nav-link{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 12px;
+  }
+  .petDet {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -40px;
+    width: 500px;
+    height: 50px ;
+  }
+  .back-pets{
+    position: absolute;
+  }
+  .back-icons{
+    display: block;
+    float: left;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+  }
+  .det-container{
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .d-age,
+  .d-address,
+  .d-color,
+  .d-sex,
+  .d-rabbies-vacc,
+  .d-rabbies-vacc-year,
+  .d-status{
+    width: 250px;
+    padding: 7px;
+    margin-bottom: 5px;
+    border-left: 1px solid black;
+    border-top: 10px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  strong{
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .pet-info{
+    margin-left: -100px;
+  }
+  
+  .dog-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .dog-breed{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  .dog-status{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    margin-top: 20px;
+  }
+  
+  .dog{
+    width: 400px !important;
+    margin-right: 10px !important;
+  }
+  
+  .crown-icon{
+    width: 300px;
+  }
+  
+  .for-payment{
+    margin-left: 70px;
+    margin-top: -20px;
+    border-radius: 10px;
+    width: 800px;
+  }
+  
+  .p-bg{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, white, skyblue);
+  }
+  
+  .prem{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 50px !important;
+    font-weight: bold;
+    font-family: 'Lucida Sans', sans-serif;
+    
+  }
+  
+  .service{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 70px !important;
+    width: 350px;
+  }
+  
+  .sub-check{
+    width: 20px;
+    margin-right: 10px !important;
+  }
+  
+  .col-right{
+    padding-top: 50px;
+    width: 300px;
+    border-radius: 10px;
+    height: 450px;
+    background: linear-gradient(0deg, white, skyblue);
+  }
+  .for-marg{
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .message{
+    font-size: 15px;
+    margin-left: 50px !important;
+    text-align: justify;
+    margin-bottom: 30px;
+    width: 400px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  
+  .a-row, .b-row{
+    margin-left: -50px;
+    margin-right: px;
+    display: block;
+    width: 300px;
+  }
+  .subs-year{
+    margin-top: 20px;
+    background: chocolate;
+    border: none;
+    height: 30px;
+    margin-left: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .subs-year:hover{
+    background-color: #76cbec;
+  }
+  .for-feed{
+    margin-left: 200px;
+    margin-top: -10px;
+  }
+  .for-feedback{
+    background: linear-gradient(0deg, skyblue, white);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+  }
+  .feed{
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .form{
+    margin-left: 50px;
+  }
+  .ques{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 15px;
+  }
+  .star-container {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+  }
+  
+  .star {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.1rem;
+    margin: 0.1rem;
+  }
+  
+  .star.selected {
+    color: #7ed7fa; 
+  }
+  .t{
+    font-family: 'Lucida Sans', sans-serif;
+    color: chocolate;
+    font-size: 14px;
+  }
+  .co{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 14px;
+  }
+  .for-area{
+    width: 300px !important;
+    height: 150px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+  }
+  
+  .fb-btn{
+    border: 1px solid black;
+    background: transparent;
+    width: 150px;
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .fb-btn:hover{
+    background-color: white;
+    border: none;
+  }
+  .find-D{
+    margin-left: 100px !important;
+    margin-top: 50px;
+  }
+  
+  .dog-image{
+    width: 700px !important;
+    height: 350px !important;
+    object-fit: cover !important;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .for-dog{
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  .dogImage{
+    border-radius: 20px !important;
+  }
+  
+  .for-up-icon{
+    width: 40px !important;
+  }
+  
+  .upload-icon{
+    position: relative;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .upload-icon:hover{
+    border-radius: 60px;
+    background-color: rgb(168, 164, 164);
+  }
+  
+  input[type='file']{
+    text-align: center;
+  }
+  
+  .container-dog{
+    margin-left: 50px;
+    width: 800px;
+    margin-top: -20px;
+    border: none;
+    background: linear-gradient(0deg, white, skyblue);
+  }
+  .find-dog-image{
+    border-radius: 20px;
+    width: auto;
+    height: 250px;
+    padding: 20px;
+  }
+  .con-tainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #76cbec;
+    width: auto;
+  }
+  .ff{
+    text-align: center;
+    margin-top: 10px !important;
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .image-name{
+    text-align: center;
+    margin-top: 10px !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .INFORMATION{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .title-info{
+    margin-top: 25px;
+    margin-bottom: -15px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .for-img{
+    margin-right: 10px;
+    position: flex;
+    margin-left: 20px;
+  }
+  .i-c{
+    margin-top: 35px;
+  }
+  .info-icon{
+    margin-bottom: 7px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .find-owner-name{
+    text-align: left !important;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px !important;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+  }
+  .address{
+    margin-bottom: 8px;
+  }
+  .address,
+  .contact-number {
+    word-spacing: 0px;
+    text-align: left;
+    font-family: 'Lucida Sans', sans-serif;
+  }
+  .contact-number{
+    margin-bottom: 20px !important;
+  }
+  .find-imgs{
+    width: auto;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    flex-direction: column !important;
+  }
